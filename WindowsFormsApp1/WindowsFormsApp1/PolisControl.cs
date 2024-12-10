@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class PolisControl : UserControl
+    public partial class PolisControl : MyUserControl
     {
         public PolisControl()
         {

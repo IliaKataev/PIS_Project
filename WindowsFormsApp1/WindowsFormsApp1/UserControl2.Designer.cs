@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class MedControl
+    partial class UserControl2
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -28,17 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // MedControl
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "MedControl";
-            this.Size = new System.Drawing.Size(757, 234);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

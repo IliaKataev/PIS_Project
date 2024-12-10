@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class MedControl : MyUserControl
+    public partial class PurposeControl : UserControl
     {
-        public MedControl()
+        public PurposeControl()
         {
             InitializeComponent();
+        }
 
-            SwitchToControl(this, new DateControl());
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

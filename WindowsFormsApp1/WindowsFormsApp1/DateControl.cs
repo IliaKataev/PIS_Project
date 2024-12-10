@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Med : Form
+    public partial class DateControl : MyUserControl
     {
-        public Med()
+        public DateControl()
         {
             InitializeComponent();
         }
+
+
     }
 }

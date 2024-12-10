@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class MedControl : MyUserControl
+    public partial class UserControl2 : UserControl
     {
-        public MedControl()
+        public UserControl2()
         {
             InitializeComponent();
-
-            SwitchToControl(this, new DateControl());
         }
     }
 }
