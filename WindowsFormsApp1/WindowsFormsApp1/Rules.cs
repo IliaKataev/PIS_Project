@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
         public Rules()
         {
             //if( obj.CheckDate() == true && purpose.Is = Трудоустройство){
-
+            ////////
         }
 
         public bool CheckDate(DateTime date)
