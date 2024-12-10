@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonMed = new System.Windows.Forms.Button();
+            this.buttonPolis = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonMed
             // 
-            this.button1.Location = new System.Drawing.Point(66, 115);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 90);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Результаты медицинского освидетельствования";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnOption1_Click);
+            this.buttonMed.Location = new System.Drawing.Point(66, 115);
+            this.buttonMed.Name = "buttonMed";
+            this.buttonMed.Size = new System.Drawing.Size(140, 90);
+            this.buttonMed.TabIndex = 0;
+            this.buttonMed.Text = "Результаты медицинского освидетельствования";
+            this.buttonMed.UseVisualStyleBackColor = true;
+            this.buttonMed.Click += new System.EventHandler(this.btnOption1_Click);
             // 
-            // button2
+            // buttonPolis
             // 
-            this.button2.Location = new System.Drawing.Point(380, 115);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 90);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Полис дополнительного или обязательного медицинского страхования";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.btnOption2_Click);
+            this.buttonPolis.Location = new System.Drawing.Point(380, 115);
+            this.buttonPolis.Name = "buttonPolis";
+            this.buttonPolis.Size = new System.Drawing.Size(140, 90);
+            this.buttonPolis.TabIndex = 1;
+            this.buttonPolis.Text = "Полис дополнительного или обязательного медицинского страхования";
+            this.buttonPolis.UseVisualStyleBackColor = true;
+            this.buttonPolis.Click += new System.EventHandler(this.btnOption2_Click);
             // 
             // label1
             // 
@@ -70,8 +70,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(635, 528);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonPolis);
+            this.Controls.Add(this.buttonMed);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -81,8 +81,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonMed;
+        private System.Windows.Forms.Button buttonPolis;
         private System.Windows.Forms.Label label1;
     }
 }

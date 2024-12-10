@@ -12,11 +12,18 @@ namespace WindowsFormsApp1
 {
     public partial class MedControl : MyUserControl
     {
-        public MedControl()
-        {
-            InitializeComponent();
+        //public MedControl()
+        //{
+        //    InitializeComponent();
 
-            SwitchToControl(this, new DateControl());
-        }
+        //    SwitchToControl(this, new DateControl());
+
+        //    Button button = new Button()
+        //    {
+        //        Text = "Ok"
+        //    };
+
+        //    button.BringToFront();
+        //}
     }
 }

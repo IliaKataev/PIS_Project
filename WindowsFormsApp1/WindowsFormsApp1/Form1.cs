@@ -12,29 +12,30 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        private MainController controller;
         public Form1()
         {
             InitializeComponent();
+            controller = new MainController(this);
         }
 
         private void btnOption1_Click(object sender, EventArgs e)
         {
-            label1.Visible = false;
-            button1.Visible = false;
-            button2.Visible = false;
-            // Показать интерфейс Option1Control
-            MyUserControl medControl = new MedControl();
-            MyUserControl.SwitchToControl(this, medControl);
+            //label1.Visible = false;
+            //buttonMed.Visible = false;
+            //buttonPolis.Visible = false;
+
+            controller.StartMedicalScenario();
 
         }
 
         private void btnOption2_Click(object sender, EventArgs e)
         {
-            label1.Visible = false;
-            button1.Visible = false;
-            button2.Visible = false;
-            // Показать интерфейс Option2Control
-            MyUserControl.SwitchToControl(this.Parent, new PolisControl());
+            //label1.Visible = false;
+            //buttonMed.Visible = false;
+            //buttonPolis.Visible = false;
+
+            controller.StartInsuranceScenario();
         }
     }
 }

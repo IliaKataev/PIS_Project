@@ -8,29 +8,32 @@ namespace WindowsFormsApp1
 {
     internal class Rules
     {
+        DateTime userData;
+
         public Rules()
         {
+            //if( obj.CheckDate() == true && purpose.Is = Трудоустройство){
 
         }
 
-        //private string CheckRules(obj answer)
-        //{
-        //    if (answerData)
-        //    {
-        //        if(Data <><>< dateRules)
-        //        {
-        //            bool true
-        //        }
-        //    }
+        public bool CheckDate(DateTime date)
+        {
+            double daysLeft = (((DateTime.Now.Year) / 365.5) - (date.Year / 365.5));
 
-        //    if(asnwer from UserContorlCsel){
+            if ((((DateTime.Now.Year)/365.5) - (date.Year/365.5)) < 90)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-        //    }
-        //}
-
-        //private bool CheckDate(DateTime date)
-        //{
-
-        //}
+        public bool CheckCitizenship(string citizenship)
+        {
+            // Пример проверки гражданства
+            return !string.IsNullOrEmpty(citizenship);
+        }
     }
 }

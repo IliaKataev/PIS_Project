@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainController.cs" />
+    <Compile Include="ViewControls\CitizenshipControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewControls\CitizenshipControl.Designer.cs">
+      <DependentUpon>CitizenshipControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControls\IsPolisControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewControls\IsPolisControl.Designer.cs">
+      <DependentUpon>IsPolisControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,20 +82,24 @@
     <Compile Include="PolisControl.Designer.cs">
       <DependentUpon>PolisControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Rules.cs" />
-    <Compile Include="DateControl.cs">
+    <Compile Include="ViewControls\PurposeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DateControl.Designer.cs">
+    <Compile Include="ViewControls\PurposeControl.Designer.cs">
+      <DependentUpon>PurposeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.cs" />
+    <Compile Include="ViewControls\DateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewControls\DateControl.Designer.cs">
       <DependentUpon>DateControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="DateControl.resx">
+    <Compile Include="Users.cs" />
+    <EmbeddedResource Include="ViewControls\CitizenshipControl.resx">
+      <DependentUpon>CitizenshipControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewControls\DateControl.resx">
       <DependentUpon>DateControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -102,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PolisControl.resx">
       <DependentUpon>PolisControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewControls\PurposeControl.resx">
+      <DependentUpon>PurposeControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

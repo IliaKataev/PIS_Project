@@ -8,15 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Controls
 {
-    public partial class DateControl : MyUserControl
+    public partial class IsPolisControl : UserControl
     {
-        public DateControl()
+        public IsPolisControl()
         {
             InitializeComponent();
         }
-
-
     }
 }
