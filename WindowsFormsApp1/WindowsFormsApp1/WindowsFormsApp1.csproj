@@ -52,10 +52,32 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Med.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Med.Designer.cs">
+      <DependentUpon>Med.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MedControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MedControl.Designer.cs">
+      <DependentUpon>MedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PolisControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PolisControl.Designer.cs">
+      <DependentUpon>PolisControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Med.resx">
+      <DependentUpon>Med.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +88,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MedControl.resx">
+      <DependentUpon>MedControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PolisControl.resx">
+      <DependentUpon>PolisControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="users.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
