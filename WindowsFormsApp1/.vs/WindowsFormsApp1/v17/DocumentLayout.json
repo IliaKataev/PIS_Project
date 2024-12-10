@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\web\\PIS_Project\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\medcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\medcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\viewcontrols\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\viewcontrols\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\myusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\myusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\viewcontrols\\purposecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\viewcontrols\\purposecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\poliscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\poliscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\medcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\medcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\datecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\web\\pis_project\\windowsformsapp1\\windowsformsapp1\\viewcontrols\\purposecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D5AD52B-748B-457C-9C03-294F3617C987}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\viewcontrols\\purposecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 247,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,104 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DateControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\DateControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\DateControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\DateControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp1\\DateControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 6,
+              "Title": "PurposeControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\PurposeControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp1\\ViewControls\\PurposeControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:33:12.201Z",
+              "WhenOpened": "2024-12-10T22:42:33.684Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DateControl.cs",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\DateControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\DateControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\DateControl.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\DateControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Country.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Country.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Country.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:33:04.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:31:18.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PolisControl.cs",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\PolisControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\PolisControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\PolisControl.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\PolisControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:31:14.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MedControl.cs",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MedControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\MedControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MedControl.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\MedControl.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:31:04.205Z",
+              "WhenOpened": "2024-12-10T22:28:17.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyUserControl.cs",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MyUserControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\MyUserControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MyUserControl.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\MyUserControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Title": "PurposeControl.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ViewControls\\PurposeControl.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:05:41.653Z",
+              "WhenOpened": "2024-12-10T22:14:15.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MedControl.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\MedControl.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MedControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp1\\MedControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 1,
+              "Title": "DateControl.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\DateControl.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ViewControls\\DateControl.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\ViewControls\\DateControl.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ViewControls\\DateControl.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:38:18.349Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-12-10T22:06:50.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 3,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MainController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\MainController.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\MainController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\MainController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswEgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T16:45:39.672Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-12-10T22:04:03.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Users.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Users.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Users.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T21:50:59.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rules.cs",
+              "DocumentMoniker": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Rules.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Rules.cs",
+              "ToolTip": "D:\\web\\PIS_Project\\WindowsFormsApp1\\WindowsFormsApp1\\Rules.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Rules.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwDIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T21:50:49.378Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         {
             mainForm = form;
             userData = new UserData();
-            rules = new Rules();
+            rules = new Rules(userData, this);
         }
 
         public void StartMedicalScenario()
@@ -43,11 +43,11 @@ namespace WindowsFormsApp1
             SwitchToControl(purposeControl);
         }
 
-        ////public void ShowOrganizationControl()
-        ////{
-        ////    var organizationControl = new OrganizationControl(userData, this, "медицинское освидетельствование");
-        ////    SwitchToControl(organizationControl);
-        ////}
+        public void ShowOrganizationControl()
+        {
+            var organizationControl = new OrganizationControl(userData, this, "медицинское освидетельствование");
+            SwitchToControl(organizationControl);
+        }
 
         public void ShowCitizenshipControl()
         {
@@ -66,6 +66,11 @@ namespace WindowsFormsApp1
             mainForm.Controls.Clear();
             control.Dock = DockStyle.Fill;
             mainForm.Controls.Add(control);
+        }
+
+        public void Reset()
+        {
+            this.mainForm.Controls.Clear();
         }
     }
 }

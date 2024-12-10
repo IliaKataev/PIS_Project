@@ -24,14 +24,7 @@ namespace WindowsFormsApp1
         {
             userData.SelectedDate = dateTimePicker1.Value;
 
-            if (new Rules().CheckDate(userData.SelectedDate))
-            {
-                controller.ShowPurposeControl();
-            }
-            else
-            {
-                MessageBox.Show("Вы выбрали некорректную дату!");
-            }
+            new Rules(userData, controller).CheckDate();
         }
 
     }
