@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
 
         public void CheckDate()
         {
-            if(DateTime.Now <= userData.SelectedDate)
+            if(DateTime.Now < userData.SelectedDate)
             {
                 MessageBox.Show("Неверная дата");
                 controller.ShowDateControl();
@@ -41,13 +41,18 @@ namespace WindowsFormsApp1
                     controller.Reset();
                 }
                 else
-                    controller.ShowPurposeControl();
+                {
+                    if (userData.Purpose == null)
+                        controller.ShowPurposeControl();
+                    else
+                        controller.ShowOrganizationControl();
+                }
             }
         }
 
         public void CheckPurpose()
-        {   
-            if(userData.Citizenship != null)
+        {
+            if (userData.Citizenship != null)
             {
                 if (userData.Purpose == "Трудоустройство")
                     controller.ShowInsuranceOrganizationControl();
@@ -72,8 +77,18 @@ namespace WindowsFormsApp1
                     controller.Reset();
                 }
             }
-            else if(userData.Purpose == "Трудоустройство")
-                controller.ShowOrganizationControl();
+            else //если DaysLeft < 30
+            {
+                if (userData.Purpose == "Трудоустройство")
+                    controller.ShowOrganizationControl();
+                else if (userData.Purpose == "Длительное пребывание(более 90 дней)")
+                    controller.ShowOrganizationControl();
+                else
+                {
+                    MessageBox.Show("Вам не нужно получать результаты мед.освидетельствования.");
+                    controller.Reset();
+                }
+            }
         }
 
         public DateTime ReturnDateForOrg()
@@ -88,8 +103,10 @@ namespace WindowsFormsApp1
 
         public void CheckCitizenship()
         {
-            if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship))
+            if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose == null)
                 controller.ShowPurposeControl();
+            else if (userData.Purpose != null)
+                controller.ShowInsuranceOrganizationControl();
             else
             {
                 MessageBox.Show("Вам не нужно получать полис.");

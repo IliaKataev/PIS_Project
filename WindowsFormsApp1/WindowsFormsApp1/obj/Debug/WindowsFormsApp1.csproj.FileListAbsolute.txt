@@ -29,3 +29,7 @@ D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Purp
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.CitizenshipControl.resources
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ViewControls.OrganizationControl.resources
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.IsPolisControl.resources
+D:\web\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.CitizenshipControl.resources
+D:\web\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.IsPolisControl.resources
+D:\web\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ViewControls.OrganizationControl.resources
+D:\web\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PurposeControl.resources

@@ -79,7 +79,7 @@ namespace WindowsFormsApp1
         {
             mainForm.ResetToMainScreen();
 
-            userData = new UserData();
+            //userData = new UserData();
         }
     }
 }
