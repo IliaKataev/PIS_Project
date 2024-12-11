@@ -24,7 +24,7 @@ namespace WindowsFormsApp1.Controls
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Вам не нужно получать полис.");
-            controller.StartInsuranceScenario();
+            controller.Reset();
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)

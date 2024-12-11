@@ -30,14 +30,14 @@ namespace WindowsFormsApp1
         {
             if(DateTime.Now < userData.SelectedDate)
             {
-                MessageBox.Show("Неверная дата");
+                MessageBox.Show("Неверная дата. Укажите правильную дату.");
                 controller.ShowDateControl();
             }
             else
             {
                 if (DaysLeft > 90)
                 {
-                    MessageBox.Show("Вы просрочили срок получения результатов мед.освидетельствования. Вам необходимо обратиться в ммиграционную службу.");
+                    MessageBox.Show("Вы просрочили срок получения результатов мед.освидетельствования. Вам необходимо обратиться в миграционную службу.");
                     controller.Reset();
                 }
                 else
@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
         {
             if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose == null)
                 controller.ShowPurposeControl();
-            else if (userData.Purpose != null)
+            else if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose != null)
                 controller.ShowInsuranceOrganizationControl();
             else
             {

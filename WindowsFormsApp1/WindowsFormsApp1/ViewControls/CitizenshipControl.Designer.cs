@@ -36,14 +36,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(139, 114);
+            this.label1.Location = new System.Drawing.Point(208, 175);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
+            this.label1.Size = new System.Drawing.Size(144, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Выберите страну:";
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Азербайджан",
@@ -55,17 +57,17 @@
             "Казахстан",
             "Армения",
             "Другая"});
-            this.comboBox1.Location = new System.Drawing.Point(142, 130);
+            this.comboBox1.Location = new System.Drawing.Point(213, 200);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(180, 28);
             this.comboBox1.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(313, 204);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(470, 314);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 31);
+            this.button1.Size = new System.Drawing.Size(75, 48);
             this.button1.TabIndex = 3;
             this.button1.Text = "Далее";
             this.button1.UseVisualStyleBackColor = true;
@@ -73,13 +75,14 @@
             // 
             // CitizenshipControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CitizenshipControl";
-            this.Size = new System.Drawing.Size(628, 415);
+            this.Size = new System.Drawing.Size(942, 638);
             this.ResumeLayout(false);
             this.PerformLayout();
 
