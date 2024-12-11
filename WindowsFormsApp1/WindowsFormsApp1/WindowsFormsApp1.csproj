@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Country.cs" />
     <Compile Include="MainController.cs" />
     <Compile Include="ViewControls\CitizenshipControl.cs">
@@ -82,6 +83,12 @@
     </Compile>
     <Compile Include="PolisControl.Designer.cs">
       <DependentUpon>PolisControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControls\OrganizationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewControls\OrganizationControl.Designer.cs">
+      <DependentUpon>OrganizationControl.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewControls\PurposeControl.cs">
       <SubType>UserControl</SubType>
@@ -120,6 +127,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PolisControl.resx">
       <DependentUpon>PolisControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewControls\IsPolisControl.resx">
+      <DependentUpon>IsPolisControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewControls\OrganizationControl.resx">
+      <DependentUpon>OrganizationControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewControls\PurposeControl.resx">
       <DependentUpon>PurposeControl.cs</DependentUpon>

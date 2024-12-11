@@ -25,11 +25,11 @@ namespace WindowsFormsApp1.Controls
         private void buttonNext_Click(object sender, EventArgs e)
         {
             userData.Citizenship = comboBox1.SelectedItem.ToString();
-
-            if (new Rules().CheckCitizenship(userData.Citizenship))
-            {
-                //controller.ShowInsuranceOrganizationControl();
-            }
+            new Rules(userData, controller).CheckCitizenship();
+            //if ()
+            //{
+            //    //controller.ShowInsuranceOrganizationControl();
+            //}
         }
     }
 }

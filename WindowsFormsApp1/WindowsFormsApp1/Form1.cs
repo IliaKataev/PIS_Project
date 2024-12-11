@@ -37,5 +37,14 @@ namespace WindowsFormsApp1
 
             controller.StartInsuranceScenario();
         }
+
+        public void ResetToMainScreen()
+        {
+            // Очистить все динамические элементы
+            this.Controls.Clear();
+
+            // Восстановить начальный интерфейс
+            InitializeComponent();
+        }
     }
 }

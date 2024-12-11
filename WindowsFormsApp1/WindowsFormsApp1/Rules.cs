@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
             this.controller = cntr;
         }
 
-        public int DaysLeft
+        public int? DaysLeft
         {
             get
             {
@@ -28,18 +28,36 @@ namespace WindowsFormsApp1
 
         public void CheckDate()
         {
-            if (DaysLeft > 90)
+            if(DateTime.Now <= userData.SelectedDate)
             {
-                MessageBox.Show("Вы просрочили срок получения результатов мед.освидетельствования. Вам необходимо обратиться в ммиграционную службу.");
-                controller.Reset();
+                MessageBox.Show("Неверная дата");
+                controller.ShowDateControl();
             }
             else
-                controller.ShowPurposeControl();
+            {
+                if (DaysLeft > 90)
+                {
+                    MessageBox.Show("Вы просрочили срок получения результатов мед.освидетельствования. Вам необходимо обратиться в ммиграционную службу.");
+                    controller.Reset();
+                }
+                else
+                    controller.ShowPurposeControl();
+            }
         }
 
         public void CheckPurpose()
-        {
-            if (DaysLeft > 30)
+        {   
+            if(userData.Citizenship != null)
+            {
+                if (userData.Purpose == "Трудоустройство")
+                    controller.ShowInsuranceOrganizationControl();
+                else
+                {
+                    MessageBox.Show($"Вам не нужно получать полис");
+                    controller.Reset();
+                }
+            }
+            else if (DaysLeft > 30)
             {
                 if (userData.Purpose == "Трудоустройство")
                 {
@@ -54,18 +72,32 @@ namespace WindowsFormsApp1
                     controller.Reset();
                 }
             }
-            else
+            else if(userData.Purpose == "Трудоустройство")
                 controller.ShowOrganizationControl();
         }
 
-
-
-        public bool CheckCitizenship(string citizenship)
+        public DateTime ReturnDateForOrg()
         {
-            // Пример проверки гражданства
-            return !string.IsNullOrEmpty(citizenship);
+            if(userData.Purpose == "Трудоустройство")
+                return userData.SelectedDate.AddDays(30);
+            else if(userData.Purpose == "Длительное пребывание(более 90 дней)")
+                return userData.SelectedDate.AddDays(90);
+            else
+                return DateTime.Now;
+        }
+
+        public void CheckCitizenship()
+        {
+            if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship))
+                controller.ShowPurposeControl();
+            else
+            {
+                MessageBox.Show("Вам не нужно получать полис.");
+                controller.Reset();
+            }
         }
 
         //Enum.GetNames(typeof(Country)).Contains(userData.Purpose)
+
     }
 }

@@ -5,16 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Controls;
+using WindowsFormsApp1.ViewControls;
 
 namespace WindowsFormsApp1
 {
     public class MainController
     {
-        private Form mainForm;
+        private Form1 mainForm;
         private UserData userData;
         private Rules rules;
 
-        public MainController(Form form)
+        public MainController(Form1 form)
         {
             mainForm = form;
             userData = new UserData();
@@ -28,7 +29,13 @@ namespace WindowsFormsApp1
 
         public void StartInsuranceScenario()
         {
-            ShowCitizenshipControl();
+            ShowIsPolisControl();
+        }
+
+        public void ShowIsPolisControl() 
+        {
+            var isPolisControl = new IsPolisControl(userData, this);
+            SwitchToControl(isPolisControl);
         }
 
         public void ShowDateControl()
@@ -55,11 +62,11 @@ namespace WindowsFormsApp1
             SwitchToControl(citizenshipControl);
         }
 
-        //public void ShowInsuranceOrganizationControl()
-        //{
-        //    var organizationControl = new OrganizationControl(userData, this, "страховая компания");
-        //    SwitchToControl(organizationControl);
-        //}
+        public void ShowInsuranceOrganizationControl()
+        {
+            var organizationControl = new OrganizationControl(userData, this, "страховая компания");
+            SwitchToControl(organizationControl);
+        }
 
         public void SwitchToControl(UserControl control)
         {
@@ -70,7 +77,9 @@ namespace WindowsFormsApp1
 
         public void Reset()
         {
-            this.mainForm.Controls.Clear();
+            mainForm.ResetToMainScreen();
+
+            userData = new UserData();
         }
     }
 }

@@ -27,3 +27,5 @@ D:\web\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DateControl.resources
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PurposeControl.resources
 D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.CitizenshipControl.resources
+D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ViewControls.OrganizationControl.resources
+D:\PIS_Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Controls.IsPolisControl.resources

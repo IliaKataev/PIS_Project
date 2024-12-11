@@ -36,9 +36,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(112, 66);
+            this.label1.Location = new System.Drawing.Point(75, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 20);
+            this.label1.Size = new System.Drawing.Size(127, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Выберите цель въезда:";
             // 
@@ -49,29 +50,33 @@
             "Трудоустройство",
             "Длительное пребывание(более 90 дней)",
             "Иные цели"});
-            this.comboBox1.Location = new System.Drawing.Point(116, 89);
+            this.comboBox1.Location = new System.Drawing.Point(77, 58);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(323, 28);
+            this.comboBox1.Size = new System.Drawing.Size(217, 21);
             this.comboBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(444, 173);
+            this.button1.Location = new System.Drawing.Point(296, 112);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 47);
+            this.button1.Size = new System.Drawing.Size(50, 31);
             this.button1.TabIndex = 3;
             this.button1.Text = "Далее";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // PurposeControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PurposeControl";
-            this.Size = new System.Drawing.Size(730, 313);
+            this.Size = new System.Drawing.Size(487, 203);
             this.ResumeLayout(false);
             this.PerformLayout();
 
