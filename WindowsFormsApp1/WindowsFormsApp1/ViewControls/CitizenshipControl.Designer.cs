@@ -56,7 +56,7 @@
             "Киргизия",
             "Казахстан",
             "Армения",
-            "Другая"});
+            "Другая страна"});
             this.comboBox1.Location = new System.Drawing.Point(213, 200);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
