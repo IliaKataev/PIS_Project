@@ -93,9 +93,9 @@ namespace WindowsFormsApp1
 
         public DateTime ReturnDateForOrg()
         {
-            if(userData.Purpose == "Трудоустройство")
+            if (userData.Purpose == "Трудоустройство")
                 return userData.SelectedDate.AddDays(30);
-            else if(userData.Purpose == "Длительное пребывание(более 90 дней)")
+            else if (userData.Purpose == "Длительное пребывание(более 90 дней)")
                 return userData.SelectedDate.AddDays(90);
             else
                 return DateTime.Now;
@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
         {
             if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose == null)
                 controller.ShowPurposeControl();
-            else if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose != null)
+            else if (Enum.GetNames(typeof(Country)).Contains(userData.Citizenship) && userData.Purpose == "Трудоустройство")
                 controller.ShowInsuranceOrganizationControl();
             else
             {

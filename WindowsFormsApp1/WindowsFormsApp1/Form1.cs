@@ -26,7 +26,6 @@ namespace WindowsFormsApp1
             //buttonPolis.Visible = false;
 
             controller.StartMedicalScenario();
-
         }
 
         private void btnOption2_Click(object sender, EventArgs e)
