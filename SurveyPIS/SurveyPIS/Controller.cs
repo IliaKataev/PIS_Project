@@ -30,9 +30,8 @@ namespace SurveyPIS
             }
         }
 
-        public void StartInsurance(DateTime entryDate, string arrivalPurpose, bool hasInsurance, Country country)
+        public void StartInsurance(string arrivalPurpose, bool hasInsurance, Country country)
         {
-            user.EntryDate = entryDate;
             user.ArrivalPurpose = arrivalPurpose;
             user.HasInsurance = hasInsurance;
             user.OriginCountry = country;

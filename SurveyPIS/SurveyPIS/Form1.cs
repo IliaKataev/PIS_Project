@@ -43,7 +43,6 @@ namespace SurveyPIS
             }
 
             controller.StartInsurance(
-            dateTimePicker1.Value,
             comboBoxPurpose.SelectedItem.ToString(),
             comboBoxPolis.SelectedItem.ToString() == "Да",
             (Country)Enum.Parse(typeof(Country), comboBoxCountry.SelectedItem.ToString())
