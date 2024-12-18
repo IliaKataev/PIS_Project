@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\surveypis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|solutionrelative:surveypis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\surveypis\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|solutionrelative:surveypis\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\surveypis\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|solutionrelative:surveypis\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|d:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\pis\\pis_project\\surveypis\\surveypis\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|solutionrelative:surveypis\\rules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\surveypis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{470F9A6E-5C7F-4A13-9A8B-D97BF2B4DC8B}|SurveyPIS\\SurveyPIS.csproj|solutionrelative:surveypis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 247,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rules.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Rules.cs",
+              "RelativeDocumentMoniker": "SurveyPIS\\Rules.cs",
+              "ToolTip": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Rules.cs",
+              "RelativeToolTip": "SurveyPIS\\Rules.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:44:44.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\UserModel.cs",
+              "RelativeDocumentMoniker": "SurveyPIS\\UserModel.cs",
+              "ToolTip": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\UserModel.cs",
+              "RelativeToolTip": "SurveyPIS\\UserModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:41:40.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Controller.cs",
+              "RelativeDocumentMoniker": "SurveyPIS\\Controller.cs",
+              "ToolTip": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Controller.cs",
+              "RelativeToolTip": "SurveyPIS\\Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:30:56.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Form1.cs",
+              "RelativeDocumentMoniker": "SurveyPIS\\Form1.cs",
+              "ToolTip": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Form1.cs",
+              "RelativeToolTip": "SurveyPIS\\Form1.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:45:12.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Form1.cs",
+              "RelativeDocumentMoniker": "SurveyPIS\\Form1.cs",
+              "ToolTip": "D:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\PIS\\PIS_Project\\SurveyPIS\\SurveyPIS\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SurveyPIS\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:42:12.635Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
