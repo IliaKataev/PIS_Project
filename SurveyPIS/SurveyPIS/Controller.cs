@@ -16,8 +16,14 @@ namespace SurveyPIS
             rules = new Rules();
         }
 
-        public void StartMedical(UserModel user)
+        public void StartMedical(DateTime entryDate, string arrivalPurpose)
         {
+            var user = new UserModel
+            {
+                EntryDate = entryDate,
+                ArrivalPurpose = arrivalPurpose
+            };
+
             string result = rules.CheckMedical(user);
             if (result != null)
             {
@@ -25,8 +31,16 @@ namespace SurveyPIS
             }
         }
 
-        public void StartInsurance(UserModel user)
+        public void StartInsurance(DateTime entryDate, string arrivalPurpose, bool hasInsurance, Country country)
         {
+            var user = new UserModel
+            {
+                EntryDate = entryDate,
+                ArrivalPurpose = arrivalPurpose,
+                HasInsurance = hasInsurance,
+                OriginCountry = country
+            };
+
             string result = rules.CheckInsurance(user);
             if (result != null) 
             {

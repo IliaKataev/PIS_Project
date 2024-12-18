@@ -28,14 +28,10 @@ namespace SurveyPIS
                 return;
             }
 
-            var user = new UserModel
-            {
-                EntryDate = dateTimePicker1.Value,
-                ArrivalPurpose = comboBoxPurpose.SelectedItem.ToString(),
-
-            };
-
-            controller.StartMedical(user);
+            controller.StartMedical(
+            dateTimePicker1.Value,
+            comboBoxPurpose.SelectedItem.ToString()
+            );
         }
 
         private void buttonPolis_Click(object sender, EventArgs e)
@@ -46,15 +42,12 @@ namespace SurveyPIS
                 return;
             }
 
-            var user = new UserModel
-            {
-                EntryDate = dateTimePicker1.Value,
-                ArrivalPurpose = comboBoxPurpose.SelectedItem.ToString(),
-                HasInsurance = comboBoxPolis.SelectedItem.ToString() == "Да",
-                OriginCountry = (Country)Enum.Parse(typeof(Country), comboBoxCountry.SelectedItem.ToString())
-            };
-
-            controller.StartInsurance(user);
+            controller.StartInsurance(
+            dateTimePicker1.Value,
+            comboBoxPurpose.SelectedItem.ToString(),
+            comboBoxPolis.SelectedItem.ToString() == "Да",
+            (Country)Enum.Parse(typeof(Country), comboBoxCountry.SelectedItem.ToString())
+            );
         }
     }
 }
