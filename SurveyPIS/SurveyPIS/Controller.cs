@@ -10,19 +10,18 @@ namespace SurveyPIS
     internal class Controller
     {
         private readonly Rules rules;
+        private readonly UserModel user;
 
         public Controller()
         {
             rules = new Rules();
+            user = new UserModel();
         }
 
         public void StartMedical(DateTime entryDate, string arrivalPurpose)
         {
-            var user = new UserModel
-            {
-                EntryDate = entryDate,
-                ArrivalPurpose = arrivalPurpose
-            };
+            user.EntryDate = entryDate;
+            user.ArrivalPurpose = arrivalPurpose;
 
             string result = rules.CheckMedical(user);
             if (result != null)
@@ -33,13 +32,10 @@ namespace SurveyPIS
 
         public void StartInsurance(DateTime entryDate, string arrivalPurpose, bool hasInsurance, Country country)
         {
-            var user = new UserModel
-            {
-                EntryDate = entryDate,
-                ArrivalPurpose = arrivalPurpose,
-                HasInsurance = hasInsurance,
-                OriginCountry = country
-            };
+            user.EntryDate = entryDate;
+            user.ArrivalPurpose = arrivalPurpose;
+            user.HasInsurance = hasInsurance;
+            user.OriginCountry = country;
 
             string result = rules.CheckInsurance(user);
             if (result != null) 
